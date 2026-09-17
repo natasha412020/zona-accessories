@@ -1,0 +1,37 @@
+import { ShoppingBag, MessageCircle } from "lucide-react";
+
+export default function Contact() {
+    return (
+        <section className="bg-white px-6 py-16 lg:px-10">
+            <div className="relative mx-auto max-w-6xl overflow-hidden rounded-3xl bg-[#1B2437] px-8 py-16 text-center sm:px-16">
+                <div className="pointer-events-none absolute -right-10 -top-16 h-52 w-52 rounded-full bg-white/5" />
+
+                <h2 className="relative text-3xl font-extrabold tracking-tight text-white sm:text-[38px]">
+                    Siap Temukan Hydrogel yang Tepat?
+                </h2>
+                <p className="relative mx-auto mt-4 max-w-lg text-[15px] leading-relaxed text-slate-300">
+                    Tingkatkan proteksi layar dan tampilan casing belakang ponsel
+                    kesayangan Anda hari ini. Hubungi tim CS kami atau langsung
+                    kunjungi katalog produk terlaris.
+                </p>
+
+                <div className="relative mt-8 flex flex-wrap items-center justify-center gap-3">
+                    <a
+                        href="#"
+                        className="inline-flex items-center gap-2 rounded-lg bg-[#6B8E6B] px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#5c7c5c]"
+                    >
+                        Beli di Shopee
+                        <ShoppingBag size={16} />
+                    </a>
+                    <a
+                        href="#contact"
+                        className="inline-flex items-center gap-2 rounded-lg border border-white/25 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-white/10"
+                    >
+                        Hubungi WhatsApp
+                        <MessageCircle size={16} />
+                    </a>
+                </div>
+            </div>
+        </section>
+    );
+}
