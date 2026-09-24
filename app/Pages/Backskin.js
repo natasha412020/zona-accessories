@@ -1,19 +1,19 @@
 const MOTIFS = [
     {
-        image: "/backskin-2d.svg",
+        image: "/asset/2D-transparent-motif.png",
         title: "2D Transparent Skin",
         badge: "Best Seller",
         description:
             "Tekstur tipis transparan (seperti serat karbon atau aurora) yang tetap mempertahankan warna asli bawaan ponsel sekaligus melindunginya secara penuh.",
     },
     {
-        image: "/backskin-3d.svg",
+        image: "/asset/3D-motif-gambar.png",
         title: "3D Textured Motif",
         description:
             "Memiliki tekstur nyata yang timbul saat disentuh. Pilihan motif berkelas mulai dari serat kayu, kulit mewah, hingga pola geometris futuristik modern.",
     },
     {
-        image: "/backskin-glitter.svg",
+        image: "/asset/motif-3d-Glitter.png",
         title: "Art & Glitter Patterns",
         description:
             "Kombinasi warna-warni artistik dengan kilauan glitter elegan. Tampil beda dan ekspresikan gaya personal unik smartphone kamu.",

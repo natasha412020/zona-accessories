@@ -12,7 +12,7 @@ export default function Knowledge() {
                 {/* Left: image */}
                 <div className="overflow-hidden rounded-2xl">
                     <img
-                        src="/hydrogel-apply.svg"
+                        src="/asset/hydrogel-1.png"
                         alt="Proses pemasangan hydrogel screen protector pada smartphone"
                         className="aspect-[4/3] w-full object-cover"
                     />

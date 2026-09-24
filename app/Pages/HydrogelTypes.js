@@ -1,30 +1,30 @@
 const TYPES = [
     {
-        image: "/hydrogel-clear.svg",
+        image: "/asset/hydrogel-clear.png",
         title: "Clear / Ultra HD",
         description:
             "Kejernihan maksimal layaknya layar asli. Sangat transparan dan tidak mengurangi kualitas warna display.",
     },
     {
-        image: "/hydrogel-matte.svg",
+        image: "/asset/hydrogel-matte.png",
         title: "Matte / Anti-Glare",
         description:
             "Finishing doff bebas pantulan cahaya & sidik jari. Sangat cocok bagi gamers dan aktivitas luar ruangan.",
     },
     {
-        image: "/hydrogel-blueray.svg",
+        image: "/asset/hydrogel-blueray.png",
         title: "Anti Blueray",
         description:
             "Menyaring radiasi sinar biru berlebih untuk menjaga kesehatan mata saat menatap smartphone terlalu lama.",
     },
     {
-        image: "/hydrogel-privacy.svg",
+        image: "/asset/hydrogel-spy.png",
         title: "Privacy / Spy",
         description:
             "Melindungi privasi layar dari intipan orang di sebelahmu. Hanya terlihat jelas dari sudut pandang lurus.",
     },
     {
-        image: "/hydrogel-uv.svg",
+        image: "/asset/hydrogel-uv.png",
         title: "UV Curing HD",
         description:
             "Mengeras setelah disinari lampu UV, memberikan tingkat proteksi benturan lebih tangguh mirip kaca.",
@@ -40,11 +40,10 @@ export default function HydrogelTypes() {
                         Varian Produk
                     </p>
                     <h2 className="mt-3 text-4xl font-extrabold tracking-tight text-slate-950">
-                        Jenis Hydrogel Kami
+                        Hydrogel by Antigo
                     </h2>
                     <p className="mt-4 leading-relaxed text-slate-500">
-                        Sesuaikan proteksi layar dengan kenyamanan visual dan aktivitas
-                        harian kamu.
+                        Beragam jenis hydrogel dengan karakter dan fungsi yang dapat disesuaikan dengan kebutuhan layar dan aktivitas kamu.
                     </p>
                 </div>
 

@@ -3,9 +3,9 @@ import { Database, ShieldCheck, Palette, Users, PackageCheck } from "lucide-reac
 const REASONS = [
     {
         icon: Database,
-        title: "Pilihan Lengkap untuk Ribuan Tipe HP",
+        title: "Presisi & Pas untuk Berbagai Layar",
         description:
-            "Tersedia database terlengkap untuk bermacam merek HP lama hingga flagship terbaru termasuk smartwatch & kamera.",
+            "Hydrogel dipotong menggunakan pola yang disesuaikan dengan berbagai model smartphone untuk hasil pemasangan yang rapi dan presi",
     },
     {
         icon: ShieldCheck,
@@ -40,7 +40,7 @@ export default function WhyZona() {
                 {/* Left: image with caption overlay */}
                 <div className="relative overflow-hidden rounded-2xl">
                     <img
-                        src="/zona-workspace.svg"
+                        src="/asset/hydrogel-2.png"
                         alt="Proses produksi dan pemasangan produk Zona Accessories"
                         className="aspect-[4/5] w-full object-cover"
                     />

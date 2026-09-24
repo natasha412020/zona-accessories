@@ -36,9 +36,7 @@ export default function Footer() {
                             </span>
                         </div>
                         <p className="mt-4 text-sm leading-relaxed text-slate-400">
-                            Penyedia aksesoris smartphone spesialis hydrogel screen
-                            protector presisi tinggi dan backskin motif dekoratif
-                            terpercaya di Indonesia.
+                            Menghadirkan solusi perlindungan layar melalui berbagai pilihan hydrogel screen protector yang presisi dan sesuai kebutuhan.
                         </p>
                     </div>
 
