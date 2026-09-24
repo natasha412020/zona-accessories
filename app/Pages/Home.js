@@ -3,7 +3,7 @@ import { ArrowRight, Droplet } from "lucide-react";
 export default function Home() {
     return (
         <section id="home" className="bg-white">
-            <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-16 px-6 py-20 lg:grid-cols-2 lg:px-10 lg:py-28">
+            <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-16 px-6 py-20 lg:grid-cols-2 lg:px-10 lg:py-15">
                 {/* Left: copy */}
                 <div>
                     <span className="inline-flex items-center gap-2 rounded-full bg-[#EAF0E7] px-4 py-1.5 text-sm font-medium text-[#4C6B4C]">
@@ -51,48 +51,9 @@ export default function Home() {
                 </div>
 
                 {/* Right: product visual */}
-                <div className="relative flex items-center justify-center rounded-3xl bg-[#8FA98F] p-10 lg:p-14">
-                    <div className="relative w-full max-w-[260px]">
-                        {/* Phone */}
-                        <div className="relative aspect-[9/18.5] w-full rounded-[2.2rem] border-[6px] border-slate-900 bg-white shadow-xl">
-                            <div className="absolute left-1/2 top-0 h-4 w-20 -translate-x-1/2 rounded-b-2xl bg-slate-900" />
-                            <svg
-                                viewBox="0 0 200 420"
-                                className="h-full w-full text-[#6B8E6B]/40"
-                                fill="none"
-                            >
-                                {Array.from({ length: 26 }).map((_, i) => {
-                                    const cx = 20 + ((i * 53) % 170);
-                                    const cy = 30 + ((i * 97) % 370);
-                                    const r = 4 + (i % 4) * 2.5;
-                                    return (
-                                        <circle
-                                            key={i}
-                                            cx={cx}
-                                            cy={cy}
-                                            r={r}
-                                            stroke="currentColor"
-                                            strokeWidth="1.5"
-                                        />
-                                    );
-                                })}
-                            </svg>
-                        </div>
-
-                        {/* Dial */}
-                        <div className="absolute -bottom-6 left-0 flex h-14 w-14 items-center justify-center rounded-full border-4 border-slate-200 bg-gradient-to-br from-slate-100 to-slate-300 shadow-lg">
-                            <Droplet size={18} className="text-slate-500" />
-                        </div>
-
-                        {/* Brand tag */}
-                        <div className="absolute -bottom-7 right-[-2.5rem] rounded-lg bg-white px-4 py-3 shadow-lg">
-                            <p className="text-sm font-bold leading-none text-slate-900">
-                                HYDRO<span className="font-normal">SHIELD</span>
-                            </p>
-                            <p className="mt-1 text-[10px] uppercase tracking-wide text-slate-400">
-                                Advanced Screen Protection
-                            </p>
-                        </div>
+                <div className="relative flex items-center justify-center rounded-3xl">
+                    <div className="relative w-full max-w-[420px]">
+                        <img src="/asset/hydrogel-clear.png" className="rounded-2xl" />
                     </div>
                 </div>
             </div>

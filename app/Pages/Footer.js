@@ -1,5 +1,5 @@
 import { ShoppingBag, Phone } from "lucide-react";
-import { FaInstagram } from "react-icons/fa";
+import { FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa";
 
 const NAVIGASI = [
     { label: "Tentang Kami", href: "#" },
@@ -15,9 +15,10 @@ const BANTUAN = [
 ];
 
 const SOCIALS = [
-    { icon: FaInstagram, href: "#", label: "Instagram" },
-    { icon: ShoppingBag, href: "#", label: "Shopee" },
-    { icon: Phone, href: "#", label: "WhatsApp" },
+    { icon: FaInstagram, href: "https://www.instagram.com/kedairoxy?stkn=eDZmb3hpa2Vrd29k", label: "Instagram" },
+    { icon: FaTiktok, href: "https://www.tiktok.com/@kedairoxy?_r=1&_t=ZS-9A0AXt8C5Yn", label: "Tiktok" },
+    { icon: ShoppingBag, href: "https://id.shp.ee/qjfC5qNE", label: "Shopee" },
+    { icon: FaWhatsapp, href: "https://wa.me/6281290909185?text=Halo%20Admin%2C%20saya%20mau%20caritahu%20soal%20hydrogel%20dan%20backskin%20", label: "WhatsApp" },
 ];
 
 export default function Footer() {
@@ -50,6 +51,7 @@ export default function Footer() {
                                 <li key={item.label}>
                                     <a
                                         href={item.href}
+                                        target="_blank"
                                         className="text-sm text-slate-300 transition-colors hover:text-white"
                                     >
                                         {item.label}
@@ -69,6 +71,7 @@ export default function Footer() {
                                 <li key={item.label}>
                                     <a
                                         href={item.href}
+                                        target="_blank"
                                         className="text-sm text-slate-300 transition-colors hover:text-white"
                                     >
                                         {item.label}
@@ -88,6 +91,7 @@ export default function Footer() {
                                 <a
                                     key={label}
                                     href={href}
+                                    target="_blank"
                                     aria-label={label}
                                     className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 text-slate-200 transition-colors hover:bg-white/20"
                                 >
@@ -96,7 +100,7 @@ export default function Footer() {
                             ))}
                         </div>
                         <p className="mt-4 text-sm text-slate-400">
-                            Email: info@zonaaccessories.com
+                            Email: <a href="mailto:zonaacchp@gmail.com">zonaacchp@gmail.com</a>
                         </p>
                     </div>
                 </div>

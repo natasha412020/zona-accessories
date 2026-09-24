@@ -17,17 +17,19 @@ export default function Contact() {
 
                 <div className="relative mt-8 flex flex-wrap items-center justify-center gap-3">
                     <a
-                        href="#"
+                        href="https://id.shp.ee/qjfC5qNE"
+                        target="_blank"
                         className="inline-flex items-center gap-2 rounded-lg bg-[#6B8E6B] px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#5c7c5c]"
                     >
                         Beli di Shopee
                         <ShoppingBag size={16} />
                     </a>
                     <a
-                        href="#contact"
+                        href="https://wa.me/6281290909185?text=Halo%20Admin%2C%20saya%20mau%20caritahu%20soal%20hydrogel%20dan%20backskin%20"
+                        target="_blank"
                         className="inline-flex items-center gap-2 rounded-lg border border-white/25 px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-white/10"
                     >
-                        Hubungi WhatsApp
+                        Hubungi Kami
                         <MessageCircle size={16} />
                     </a>
                 </div>
