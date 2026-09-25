@@ -1,10 +1,16 @@
 const MOTIFS = [
     {
-        image: "/asset/2D-transparent-motif.png",
-        title: "2D Transparent Skin",
+        image: "/asset/3d-diamond.png",
+        title: "3D Transparent Skin",
         badge: "Best Seller",
         description:
-            "Tekstur tipis transparan (seperti serat karbon atau aurora) yang tetap mempertahankan warna asli bawaan ponsel sekaligus melindunginya secara penuh.",
+            "Tekstur tipis transparan (seperti serat karbon atau aurora) dengan motif 3D unik yang tetap mempertahankan warna asli bawaan ponsel sekaligus melindunginya secara penuh.",
+    },
+    {
+        image: "/asset/2D-transparent-motif.png",
+        title: "2D Transparent Skin",
+        description:
+            "Tekstur tipis transparan dengan motif 2D unik yang tetap mempertahankan warna asli bawaan ponsel sekaligus melindunginya secara penuh.",
     },
     {
         image: "/asset/3D-motif-gambar.png",
@@ -17,6 +23,12 @@ const MOTIFS = [
         title: "Art & Glitter Patterns",
         description:
             "Kombinasi warna-warni artistik dengan kilauan glitter elegan. Tampil beda dan ekspresikan gaya personal unik smartphone kamu.",
+    },
+    {
+        image: "/asset/aurora.png",
+        title: "3D Motif Aurora",
+        description:
+            "Kombinasi warna-warni artistik dengan pantulan aurora yang elegan. Tampil beda dan ekspresikan gaya personal unik smartphone kamu.",
     },
 ];
 
@@ -37,16 +49,23 @@ export default function Backskin() {
                     </p>
                 </div>
 
-                <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-3">
+                <div className="mt-14 flex flex-wrap justify-center gap-6">
                     {MOTIFS.map(({ image, title, badge, description }) => (
                         <div
                             key={title}
-                            className="overflow-hidden rounded-xl border border-slate-200 bg-white"
+                            className="
+                                w-full
+                                overflow-hidden
+                                rounded-xl
+                                border border-slate-200
+                                bg-white
+                                sm:w-[calc(33.333%-16px)]
+                            "
                         >
                             <img
                                 src={image}
                                 alt={title}
-                                className="aspect-[4/3] w-full object-cover"
+                                className="aspect-[4/4] w-full object-cover"
                             />
                             <div className="p-5">
                                 <div className="flex items-center gap-2">

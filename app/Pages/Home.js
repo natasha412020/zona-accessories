@@ -51,9 +51,9 @@ export default function Home() {
                 </div>
 
                 {/* Right: product visual */}
-                <div className="relative flex items-center justify-center rounded-3xl">
-                    <div className="relative w-full max-w-[420px]">
-                        <img src="/asset/hydrogel-clear.png" className="rounded-2xl" />
+                <div className="relative flex items-center justify-center">
+                    <div className="relative w-full max-w-[700px]">
+                        <img src="/asset/main-pict.jpeg" className="rounded-2xl" />
                     </div>
                 </div>
             </div>

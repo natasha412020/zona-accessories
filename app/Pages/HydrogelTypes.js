@@ -40,7 +40,7 @@ export default function HydrogelTypes() {
                         Varian Produk
                     </p>
                     <h2 className="mt-3 text-4xl font-extrabold tracking-tight text-slate-950">
-                        Hydrogel by Antigo
+                        Pilih Hydrogel Sesuai Kebutuhanmu
                     </h2>
                     <p className="mt-4 leading-relaxed text-slate-500">
                         Beragam jenis hydrogel dengan karakter dan fungsi yang dapat disesuaikan dengan kebutuhan layar dan aktivitas kamu.

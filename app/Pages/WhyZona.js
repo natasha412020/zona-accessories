@@ -47,11 +47,10 @@ export default function WhyZona() {
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/10 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-7">
                         <h3 className="text-xl font-bold leading-snug text-white">
-                            Pelayanan Terbaik Untuk Kepuasan Smartphone Kamu.
+                            Detail Kecil, Perbedaan Besar
                         </h3>
                         <p className="mt-2 max-w-xs text-sm leading-relaxed text-slate-200">
-                            Kami memprioritaskan kualitas pemotongan mesin yang presisi
-                            milimeter dan materi mentah premium.
+                            Dari material hingga proses pemotongan, setiap detail diperhatikan untuk memberikan hasil yang rapi dan nyaman digunakan.
                         </p>
                     </div>
                 </div>

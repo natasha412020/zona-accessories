@@ -36,12 +36,10 @@ export default function Keunggulan() {
                         Mengapa Pilih Hydrogel?
                     </p>
                     <h2 className="mt-3 text-4xl font-extrabold tracking-tight text-slate-950">
-                        Keunggulan Hydrogel ZONA
+                        Kenapa Pilih Hydrogel by Antigo?
                     </h2>
                     <p className="mt-4 leading-relaxed text-slate-500">
-                        Dirancang khusus dengan formulasi teknologi terkini untuk
-                        perlindungan layar maksimal tanpa mengurangi kenyamanan
-                        pengguna.
+                        Karena setiap layar memiliki kebutuhan yang berbeda, dan kami punya pilihannya.
                     </p>
                 </div>
 
