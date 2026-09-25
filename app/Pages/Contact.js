@@ -37,7 +37,7 @@ export default function Contact() {
                     </a>
 
                     <a
-                        href="https://id.shp.ee/qjfC5qNE"
+                        href="https://tk.tokopedia.com/ZSbRrvF1v/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 rounded-lg bg-[#03AC0E] px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#038F0B]"
