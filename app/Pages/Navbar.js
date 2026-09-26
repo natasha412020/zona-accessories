@@ -19,7 +19,7 @@ export default function Navbar() {
             <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
                 {/* Logo */}
                 <a href="#home" className="flex items-center gap-2.5">
-                    <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#6B8E6B] text-sm font-bold text-white">
+                    <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#854F0B] text-sm font-bold text-white">
                         Z
                     </span>
                     <span className="text-[17px] font-bold tracking-tight text-slate-900">
@@ -34,8 +34,8 @@ export default function Navbar() {
                             <a
                                 href={link.href}
                                 className={`text-[15px] transition-colors ${i === 0
-                                        ? "font-medium text-[#6B8E6B]"
-                                        : "text-slate-700 hover:text-slate-950"
+                                    ? "font-medium text-[#854F0B]"
+                                    : "text-slate-700 hover:text-slate-950"
                                     }`}
                             >
                                 {link.label}
@@ -48,7 +48,7 @@ export default function Navbar() {
                 <div className="hidden items-center gap-3 lg:flex">
                     <a
                         href="#produk"
-                        className="rounded-lg bg-[#6B8E6B] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#5c7c5c]"
+                        className="rounded-lg bg-[#854F0B] px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-[#623b0a]"
                     >
                         Lihat Produk
                     </a>
@@ -79,7 +79,7 @@ export default function Navbar() {
                                 <a
                                     href={link.href}
                                     onClick={() => setOpen(false)}
-                                    className={`block text-[15px] ${i === 0 ? "font-medium text-[#6B8E6B]" : "text-slate-700"
+                                    className={`block text-[15px] ${i === 0 ? "font-medium text-[#854F0B]" : "text-slate-700"
                                         }`}
                                 >
                                     {link.label}
@@ -89,7 +89,7 @@ export default function Navbar() {
                     </ul>
                     <a
                         href="#produk"
-                        className="mt-5 block rounded-lg bg-[#6B8E6B] px-5 py-2.5 text-center text-sm font-semibold text-white"
+                        className="mt-5 block rounded-lg bg-[#854F0B] px-5 py-2.5 text-center text-sm font-semibold text-white"
                     >
                         Lihat Produk
                     </a>

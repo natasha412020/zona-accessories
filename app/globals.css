@@ -3,6 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --brand-gold-light: #FAC775;
+  --brand-cream: #e8dccb;
+  --footer-paragraph: #c9b8a3;
 }
 
 @theme inline {

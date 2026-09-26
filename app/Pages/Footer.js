@@ -23,27 +23,27 @@ const SOCIALS = [
 
 export default function Footer() {
     return (
-        <footer id="contact" className="bg-[#111827]">
+        <footer id="contact" className="bg-[#2E1B08]">
             <div className="mx-auto max-w-7xl px-6 py-16 lg:px-10">
                 <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-4">
                     {/* Brand */}
                     <div className="lg:col-span-1">
                         <div className="flex items-center gap-2.5">
-                            <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-[#6B8E6B] text-xs font-bold text-white">
+                            <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-[#854F0B] text-xs font-bold text-white">
                                 Z
                             </span>
                             <span className="text-[15px] font-bold text-white">
                                 ZONA Accessories
                             </span>
                         </div>
-                        <p className="mt-4 text-sm leading-relaxed text-slate-400">
+                        <p className="mt-4 text-sm leading-relaxed text-[var(--footer-paragraph)]">
                             Menghadirkan solusi perlindungan layar melalui berbagai pilihan hydrogel screen protector yang presisi dan sesuai kebutuhan.
                         </p>
                     </div>
 
                     {/* Navigasi */}
                     <div>
-                        <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-400">
+                        <h3 className="text-xs font-semibold uppercase tracking-wide text-[var(--brand-gold-light)]">
                             Navigasi
                         </h3>
                         <ul className="mt-4 space-y-3">
@@ -52,7 +52,7 @@ export default function Footer() {
                                     <a
                                         href={item.href}
                                         target="_blank"
-                                        className="text-sm text-slate-300 transition-colors hover:text-white"
+                                        className="text-sm text-[var(--footer-paragraph)] transition-colors hover:text-white"
                                     >
                                         {item.label}
                                     </a>
@@ -63,7 +63,7 @@ export default function Footer() {
 
                     {/* Bantuan */}
                     <div>
-                        <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-400">
+                        <h3 className="text-xs font-semibold uppercase tracking-wide text-[var(--brand-gold-light)]">
                             Bantuan
                         </h3>
                         <ul className="mt-4 space-y-3">
@@ -72,7 +72,7 @@ export default function Footer() {
                                     <a
                                         href={item.href}
                                         target="_blank"
-                                        className="text-sm text-slate-300 transition-colors hover:text-white"
+                                        className="text-sm text-[var(--footer-paragraph)] transition-colors hover:text-white"
                                     >
                                         {item.label}
                                     </a>
@@ -83,7 +83,7 @@ export default function Footer() {
 
                     {/* Temukan kami di */}
                     <div>
-                        <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-400">
+                        <h3 className="text-xs font-semibold uppercase tracking-wide text-[var(--brand-gold-light)]">
                             Temukan Kami Di
                         </h3>
                         <div className="mt-4 flex items-center gap-3">
@@ -99,7 +99,7 @@ export default function Footer() {
                                 </a>
                             ))}
                         </div>
-                        <p className="mt-4 text-sm text-slate-400">
+                        <p className="mt-4 text-sm text-[var(--brand-gold-light)]">
                             Email: <a href="mailto:zonaacchp@gmail.com">zonaacchp@gmail.com</a>
                         </p>
                     </div>
@@ -107,19 +107,19 @@ export default function Footer() {
 
                 {/* Bottom bar */}
                 <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-6 sm:flex-row">
-                    <p className="text-sm text-slate-500">
+                    <p className="text-sm text-[var(--footer-paragraph)]">
                         © 2026 ZONA Accessories. All rights reserved.
                     </p>
                     <div className="flex items-center gap-6">
                         <a
                             href="#"
-                            className="text-sm text-slate-500 transition-colors hover:text-slate-300"
+                            className="text-sm text-[var(--footer-paragraph)] transition-colors hover:text-slate-300"
                         >
                             Privacy Policy
                         </a>
                         <a
                             href="#"
-                            className="text-sm text-slate-500 transition-colors hover:text-slate-300"
+                            className="text-sm text-[var(--footer-paragraph)] transition-colors hover:text-slate-300"
                         >
                             Terms of Service
                         </a>

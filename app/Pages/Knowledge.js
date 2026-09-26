@@ -12,7 +12,7 @@ export default function Knowledge() {
                 {/* Left: image */}
                 <div className="overflow-hidden rounded-2xl">
                     <img
-                        src="/asset/hydrogel-1.png"
+                        src="/asset/main-pict.jpeg"
                         alt="Proses pemasangan hydrogel screen protector pada smartphone"
                         className="aspect-[4/3] w-full object-cover"
                     />
@@ -20,7 +20,7 @@ export default function Knowledge() {
 
                 {/* Right: copy */}
                 <div>
-                    <p className="text-sm font-semibold uppercase tracking-wide text-[#6B8E6B]">
+                    <p className="text-sm font-semibold uppercase tracking-wide text-[#854F0B]">
                         Penjelasan Produk
                     </p>
                     <h2 className="mt-3 text-4xl font-extrabold tracking-tight text-slate-950">
@@ -45,7 +45,7 @@ export default function Knowledge() {
                     <ul className="mt-6 space-y-3">
                         {POINTS.map((point) => (
                             <li key={point} className="flex items-center gap-2.5">
-                                <Check size={16} className="shrink-0 text-[#6B8E6B]" />
+                                <Check size={16} className="shrink-0 text-[#854F0B]" />
                                 <span className="text-[15px] font-medium text-slate-800">
                                     {point}
                                 </span>

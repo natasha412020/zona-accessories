@@ -5,7 +5,7 @@ import { SiShopee } from "react-icons/si";
 export default function Contact() {
     return (
         <section className="bg-white px-6 py-16 lg:px-10">
-            <div className="relative mx-auto max-w-6xl overflow-hidden rounded-3xl bg-[#1B2437] px-8 py-16 text-center sm:px-16">
+            <div className="relative mx-auto max-w-6xl overflow-hidden rounded-3xl bg-[#854F0B] px-8 py-16 text-center sm:px-16">
                 <div className="pointer-events-none absolute -right-10 -top-16 h-52 w-52 rounded-full bg-white/5" />
 
                 <h2 className="relative text-3xl font-extrabold tracking-tight text-white sm:text-[38px]">

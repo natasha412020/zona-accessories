@@ -32,7 +32,7 @@ export default function Keunggulan() {
         <section id="kenapa-zona" className="bg-[#F3F4F1]">
             <div className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-24">
                 <div className="mx-auto max-w-2xl text-center">
-                    <p className="text-sm font-semibold uppercase tracking-wide text-[#6B8E6B]">
+                    <p className="text-sm font-semibold uppercase tracking-wide text-[#854F0B]">
                         Mengapa Pilih Hydrogel?
                     </p>
                     <h2 className="mt-3 text-4xl font-extrabold tracking-tight text-slate-950">
@@ -49,8 +49,8 @@ export default function Keunggulan() {
                             key={title}
                             className="rounded-2xl border border-slate-200 bg-white p-6"
                         >
-                            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[#EAF0E7]">
-                                <Icon size={18} className="text-[#6B8E6B]" />
+                            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-[#FAEEDA]">
+                                <Icon size={18} className="text-[#854F0B]" />
                             </div>
                             <h3 className="mt-5 text-base font-bold text-slate-950">
                                 {title}

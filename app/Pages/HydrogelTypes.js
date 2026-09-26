@@ -36,7 +36,7 @@ export default function HydrogelTypes() {
         <section className="bg-[#FAFAF9]">
             <div className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-24">
                 <div className="mx-auto max-w-2xl text-center">
-                    <p className="text-sm font-semibold uppercase tracking-wide text-[#6B8E6B]">
+                    <p className="text-sm font-semibold uppercase tracking-wide text-[#854F0B]">
                         Varian Produk
                     </p>
                     <h2 className="mt-3 text-4xl font-extrabold tracking-tight text-slate-950">
@@ -56,7 +56,7 @@ export default function HydrogelTypes() {
                             <img
                                 src={image}
                                 alt={title}
-                                className="aspect-square w-full object-cover"
+                                className="w-full object-cover"
                             />
                             <div className="p-4">
                                 <h3 className="text-[15px] font-bold text-slate-950">

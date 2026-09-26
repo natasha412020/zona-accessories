@@ -40,7 +40,7 @@ export default function WhyZona() {
                 {/* Left: image with caption overlay */}
                 <div className="relative overflow-hidden rounded-2xl">
                     <img
-                        src="/asset/hydrogel-2.png"
+                        src="/asset/hydrogel-3.png"
                         alt="Proses produksi dan pemasangan produk Zona Accessories"
                         className="aspect-[4/5] w-full object-cover"
                     />
@@ -57,7 +57,7 @@ export default function WhyZona() {
 
                 {/* Right: reasons list */}
                 <div>
-                    <p className="text-sm font-semibold uppercase tracking-wide text-[#6B8E6B]">
+                    <p className="text-sm font-semibold uppercase tracking-wide text-[#854F0B]">
                         Nilai Lebih Kami
                     </p>
                     <h2 className="mt-3 text-4xl font-extrabold tracking-tight text-slate-950">
@@ -67,8 +67,8 @@ export default function WhyZona() {
                     <ul className="mt-8 space-y-6">
                         {REASONS.map(({ icon: Icon, title, description }) => (
                             <li key={title} className="flex gap-4">
-                                <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[#EAF0E7]">
-                                    <Icon size={16} className="text-[#6B8E6B]" />
+                                <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[#FAEEDA]">
+                                    <Icon size={16} className="text-[#854F0B]" />
                                 </div>
                                 <div>
                                     <h3 className="text-[15px] font-bold text-slate-950">

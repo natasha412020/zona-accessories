@@ -37,7 +37,7 @@ export default function Backskin() {
         <section id="backskin" className="bg-white">
             <div className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-24">
                 <div className="mx-auto max-w-2xl text-center">
-                    <p className="text-sm font-semibold uppercase tracking-wide text-[#6B8E6B]">
+                    <p className="text-sm font-semibold uppercase tracking-wide text-[#854F0B]">
                         Gaya &amp; Proteksi Belakang
                     </p>
                     <h2 className="mt-3 text-4xl font-extrabold tracking-tight text-slate-950">
@@ -73,7 +73,7 @@ export default function Backskin() {
                                         {title}
                                     </h3>
                                     {badge && (
-                                        <span className="rounded-full bg-[#EAF0E7] px-2.5 py-0.5 text-[11px] font-semibold text-[#4C6B4C]">
+                                        <span className="rounded-full bg-[#FAEEDA] px-2.5 py-0.5 text-[11px] font-semibold text-[#854F0B]">
                                             {badge}
                                         </span>
                                     )}

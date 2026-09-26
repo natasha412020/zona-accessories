@@ -6,8 +6,8 @@ export default function Home() {
             <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-16 px-6 py-20 lg:grid-cols-2 lg:px-10 lg:py-15">
                 {/* Left: copy */}
                 <div>
-                    <span className="inline-flex items-center gap-2 rounded-full bg-[#EAF0E7] px-4 py-1.5 text-sm font-medium text-[#4C6B4C]">
-                        <span className="h-1.5 w-1.5 rounded-full bg-[#6B8E6B]" />
+                    <span className="inline-flex items-center gap-2 rounded-full bg-[#FAEEDA] px-4 py-1.5 text-sm font-medium text-[#854F0B]">
+                        <span className="h-1.5 w-1.5 rounded-full bg-[#854F0B]" />
                         Pelopor Screen Protector Fleksibel
                     </span>
 
@@ -24,7 +24,7 @@ export default function Home() {
                     <div className="mt-9 flex flex-wrap items-center gap-3">
                         <a
                             href="#produk"
-                            className="inline-flex items-center gap-2 rounded-lg bg-[#6B8E6B] px-6 py-3.5 text-[15px] font-semibold text-white transition-colors hover:bg-[#5c7c5c]"
+                            className="inline-flex items-center gap-2 rounded-lg bg-[#854F0B] px-6 py-3.5 text-[15px] font-semibold text-white transition-colors hover:bg-[#623b0a]"
                         >
                             Lihat Produk Kami
                             <ArrowRight size={16} />
@@ -39,7 +39,7 @@ export default function Home() {
 
                     <div className="mt-10 flex items-center gap-3">
                         <div className="flex -space-x-2.5">
-                            <span className="h-8 w-8 rounded-full border-2 border-white bg-[#6B8E6B]" />
+                            <span className="h-8 w-8 rounded-full border-2 border-white bg-[#854F0B]" />
                             <span className="h-8 w-8 rounded-full border-2 border-white bg-[#5B7FD9]" />
                             <span className="h-8 w-8 rounded-full border-2 border-white bg-[#3D4756]" />
                         </div>
@@ -52,8 +52,8 @@ export default function Home() {
 
                 {/* Right: product visual */}
                 <div className="relative flex items-center justify-center">
-                    <div className="relative w-full max-w-[700px]">
-                        <img src="/asset/main-pict.jpeg" className="rounded-2xl" />
+                    <div className="relative w-full max-w-[400px]">
+                        <img src="/asset/home-pict.png" className="rounded-2xl" />
                     </div>
                 </div>
             </div>
