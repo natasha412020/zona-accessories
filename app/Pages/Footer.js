@@ -18,7 +18,7 @@ const SOCIALS = [
     { icon: FaInstagram, href: "https://www.instagram.com/kedairoxy?stkn=eDZmb3hpa2Vrd29k", label: "Instagram" },
     { icon: FaTiktok, href: "https://www.tiktok.com/@kedairoxy?_r=1&_t=ZS-9A0AXt8C5Yn", label: "Tiktok" },
     { icon: SiShopee, href: "https://id.shp.ee/qjfC5qNE", label: "Shopee" },
-    { icon: FaWhatsapp, href: "https://wa.me/6281290909185?text=Halo%20Admin%2C%20saya%20mau%20caritahu%20soal%20hydrogel%20dan%20backskin%20", label: "WhatsApp" },
+    { icon: FaWhatsapp, href: "https://wa.me/6282260123235?text=Halo%20Admin%2C%20saya%20mau%20caritahu%20soal%20hydrogel%20dan%20backskin%20", label: "WhatsApp" },
 ];
 
 export default function Footer() {

@@ -4,6 +4,9 @@ export const metadata = {
   title: "Zona Accessories — Hydrogel & Backskin",
   description:
     "Kenali Hydrogel, pelindung fleksibel untuk smartphone kamu. Hydrogel dan backskin motif dekoratif berkualitas tinggi.",
+  icons: {
+    icon: "/logo-zona.png",
+  },
 };
 
 export default function RootLayout({ children }) {
