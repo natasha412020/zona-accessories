@@ -12,7 +12,7 @@ export default function Home() {
                     </span>
 
                     <h1 className="mt-6 text-5xl font-extrabold leading-[1.08] tracking-tight text-slate-950 lg:text-[54px]">
-                        Kenali Hydrogel, Pelindung Fleksibel untuk Smartphone Kamu
+                        Kenali Hydrogel Antigo, Pelindung Fleksibel untuk Smartphone Kamu
                     </h1>
 
                     <p className="mt-6 max-w-md text-lg leading-relaxed text-slate-500">

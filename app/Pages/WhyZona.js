@@ -61,7 +61,7 @@ export default function WhyZona() {
                         Nilai Lebih Kami
                     </p>
                     <h2 className="mt-3 text-4xl font-extrabold tracking-tight text-slate-950">
-                        Kenapa Zona Accessories?
+                        Kenapa Hydrogel Antigo?
                     </h2>
 
                     <ul className="mt-8 space-y-6">

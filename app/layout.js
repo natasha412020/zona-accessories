@@ -3,7 +3,7 @@ import "./globals.css";
 export const metadata = {
   title: "Zona Accessories — Hydrogel & Backskin",
   description:
-    "Kenali Hydrogel, pelindung fleksibel untuk smartphone kamu. Hydrogel dan backskin motif dekoratif berkualitas tinggi.",
+    "Kenali Hydrogel Antigo, pelindung fleksibel untuk smartphone kamu. Hydrogel dan backskin motif dekoratif berkualitas tinggi.",
   icons: {
     icon: "/logo-zona.png",
   },

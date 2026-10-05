@@ -7,7 +7,7 @@ const NAV_LINKS = [
     { label: "Home", href: "#home" },
     { label: "Hydrogel", href: "#hydrogel" },
     { label: "Backskin", href: "#backskin" },
-    { label: "Kenapa Zona?", href: "#kenapa-zona" },
+    { label: "Kenapa Antigo?", href: "#kenapa-antigo" },
     { label: "Contact", href: "#contact" },
 ];
 
@@ -20,10 +20,10 @@ export default function Navbar() {
                 {/* Logo */}
                 <a href="#home" className="flex items-center gap-2.5">
                     <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#854F0B] text-sm font-bold text-white">
-                        Z
+                        H
                     </span>
                     <span className="text-[17px] font-bold tracking-tight text-slate-900">
-                        ZONA Accessories
+                        Hydrogel Solution
                     </span>
                 </a>
 
