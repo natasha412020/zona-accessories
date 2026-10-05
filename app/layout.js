@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Zona Accessories — Hydrogel & Backskin",
+  title: "Antigo - Hydrogel & Backskin",
   description:
     "Kenali Hydrogel Antigo, pelindung fleksibel untuk smartphone kamu. Hydrogel dan backskin motif dekoratif berkualitas tinggi.",
   icons: {

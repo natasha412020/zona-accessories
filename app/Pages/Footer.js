@@ -30,10 +30,10 @@ export default function Footer() {
                     <div className="lg:col-span-1">
                         <div className="flex items-center gap-2.5">
                             <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-[#854F0B] text-xs font-bold text-white">
-                                Z
+                                H
                             </span>
                             <span className="text-[15px] font-bold text-white">
-                                ZONA Accessories
+                                Hydrogel Solution
                             </span>
                         </div>
                         <p className="mt-4 text-sm leading-relaxed text-[var(--footer-paragraph)]">
@@ -108,7 +108,7 @@ export default function Footer() {
                 {/* Bottom bar */}
                 <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-6 sm:flex-row">
                     <p className="text-sm text-[var(--footer-paragraph)]">
-                        © 2026 ZONA Accessories. All rights reserved.
+                        © 2026 Hydrogel Antigo. All rights reserved.
                     </p>
                     <div className="flex items-center gap-6">
                         <a

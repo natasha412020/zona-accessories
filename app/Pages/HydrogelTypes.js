@@ -25,7 +25,7 @@ const TYPES = [
     },
     {
         image: "/asset/hydrogel-uv.png",
-        title: "UV Curing HD",
+        title: "UV Curved HD",
         description:
             "Mengeras setelah disinari lampu UV, memberikan tingkat proteksi benturan lebih tangguh mirip kaca.",
     },

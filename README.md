@@ -126,4 +126,4 @@ Proyek ini siap di-deploy ke [Vercel](https://vercel.com/):
 
 ## 📄 Lisensi
 
-© 2025 Zona Accessories. All rights reserved.
+© 2025 Hydrogel Antigo. All rights reserved.

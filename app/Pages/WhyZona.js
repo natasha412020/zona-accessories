@@ -41,7 +41,7 @@ export default function WhyZona() {
                 <div className="relative overflow-hidden rounded-2xl">
                     <img
                         src="/asset/hydrogel-3.png"
-                        alt="Proses produksi dan pemasangan produk Zona Accessories"
+                        alt="Proses produksi dan pemasangan produk Hydrogel Antigo"
                         className="aspect-[4/5] w-full object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/10 to-transparent" />
